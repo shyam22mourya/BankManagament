@@ -8,4 +8,4 @@
            java , servlate 
 
        3. Database 
-         git 
+         sql 
