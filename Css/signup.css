@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: #f1f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+.form .head {
+    margin-bottom: 1.5rem;
+    color: #174ea6;
+    text-align: center;
+
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.form label {
+    display: block;
+    margin: 1rem 0;
+    color: #333;
+
+}
+
+.form input {
+    width: 100%;
+    padding: 0.7rem 0 0.7rem 0.5rem;
+    margin-bottom: 1rem;
+    border: 2px solid #292929;
+    border-radius: 6px;
+    transition: all 0.2s ease 0.2;
+    outline: none;
+}
+
+.form input:focus,
+.form input:valid {
+    border: 2px solid rgb(100, 23, 223);
+    box-shadow: rgba(98, 20, 222, 0.24) 5px 5px 1rem;
+}
+
+.form select[name="user_type"] {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.form button {
+    margin: 0 6rem;
+    padding: 1rem 5rem;
+    border: 2px solid #174ea6;
+    color: #174ea6;
+    border-radius: 120px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease ;
+}
+
+.form button:hover {
+    background-color: #174ea6;
+    color: white;
+}
+
+.link {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.link a {
+    color: #174ea6;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}

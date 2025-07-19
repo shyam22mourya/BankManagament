@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.main {
+    /* width: 100vw; */
+    background-color: aliceblue;
+    padding: 2rem 0 1rem 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main .side {
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+
+.main .side a {
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
+    color: #001c64;
+    font-weight: 700;
+}
+
+.main .side a:hover {
+    background-color: #0a3aad;
+    color: #fff;
+
+}
+
+
+/* footer  */
+footer {
+    position: absolute;
+    /* bottom: 0; */
+    margin: 5rem;
+}
+
+
+.foot1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot1 .link-foot a {
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: 900;
+    color: #001c64;
+}
+
+.foot1 .img img {
+    height: 1rem;
+    width: 1rem;
+}
+
+.line {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    /* padding: 1rem 0; */
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+.first {
+    letter-spacing: normal;
+    margin: 1rem;
+}
+
+.second {
+    letter-spacing: normal;
+    margin: 1rem;
+}
+
+/* about section code */
+.about-section {
+    margin-bottom: 1rem;
+    background-color: #0a3aad;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10%;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.about-content h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    margin-top: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* contect section in  */
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 10%;
+    background-color: #fff;
+
+}
+
+.contact-card {
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    padding: 25px;
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+}
+
+.contact-card h3 {
+    color: #0a3aad;
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+.contact-card p {
+    color: #333;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.contact-card a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
