@@ -37,6 +37,15 @@
 }
 
 
+.body{
+     width: 100%;
+}
+ .hero .second_hero {
+    background-image: url("//BankManagament/image/heroimg.png");
+}
+
+
+
 /* footer  */
 footer {
     position: absolute;
